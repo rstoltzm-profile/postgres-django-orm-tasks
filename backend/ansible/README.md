@@ -1,5 +1,5 @@
 # Ansible setup
-## I setup on wsl2 ubuntu
+## wsl2 ubuntu
 ```
 sudo apt update
 sudo apt install ansible -y
