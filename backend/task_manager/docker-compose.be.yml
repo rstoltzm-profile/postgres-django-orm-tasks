@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: .
+    container_name: django_backend
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    networks:
+      - shared_network
+      
+networks:
+  shared_network:
+    external: true

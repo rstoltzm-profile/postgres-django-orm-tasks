@@ -1,0 +1,2 @@
+[postgresql]
+localhost ansible_connection=local ansible_user=postgres_admin ansible_password=admin_password ansible_port=5432

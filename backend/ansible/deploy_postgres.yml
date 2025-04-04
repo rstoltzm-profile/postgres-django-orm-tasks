@@ -1,0 +1,11 @@
+- name: Deploy PostgreSQL Databases
+  hosts: postgresql
+  tasks:
+    - name: Ensure database exists
+      community.postgresql.postgresql_db:
+        name: task_manager_db
+        state: present
+        login_user: "{{ ansible_user }}"
+        login_password: "{{ ansible_password }}"
+        login_host: "localhost"
+        login_port: "{{ ansible_port }}"

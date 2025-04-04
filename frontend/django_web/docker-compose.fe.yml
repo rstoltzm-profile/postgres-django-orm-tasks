@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .
+    container_name: django_frontend
+    command: python manage.py runserver 0.0.0.0:3000
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    networks:
+      - shared_network
+      
+networks:
+  shared_network:
+    external: true
