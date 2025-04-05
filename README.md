@@ -1,5 +1,12 @@
 # Basic Project for Postgres ORM
 
+## Description:
+1. PostgreSQL Instance  
+2. pgadmin4 for Admin work and management
+3. Ansible to deploy pg databases
+4. Python Django ORM + API for backend
+5. Python Django for front end
+
 ## Diagram
 ![diagram](diagram.drawio.png)
 
@@ -11,13 +18,6 @@
     * Setup more complex ORMs
     * Improve front end capabilities
     * Monitoring strategy
-
-## Description:
-1. PostgreSQL Instance  
-2. pgadmin4 for Admin work and management
-3. Ansible to deploy pg databases
-4. Python Django ORM + API for backend
-5. Python Django for front end
 
 ## Installation:
 * follow docs/README.md
