@@ -1,4 +1,9 @@
 # Basic Project for Postgres ORM
+
+## Diagram
+![diagram](diagram.drawio.png)
+
+## Notes
 * See docs/ for more information on setup and screenshots
 * Built mainly with docker
 * This is a base project and can be greatly improved
